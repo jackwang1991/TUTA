@@ -116,19 +116,13 @@
 		97829C421DDEA1180009DCCF /* TUTA */ = {
 			isa = PBXGroup;
 			children = (
+				97829C8C1DDEAEFE0009DCCF /* delegate */,
+				97829C8B1DDEAED90009DCCF /* base */,
 				97829C7A1DDEAD1F0009DCCF /* editing(编辑) */,
 				97829C791DDEAD190009DCCF /* mine(我的) */,
 				97829C781DDEAD0F0009DCCF /* message(消息) */,
 				97829C771DDEACCC0009DCCF /* attention(关注) */,
 				97829C761DDEAC610009DCCF /* discover(发现) */,
-				97829C461DDEA1180009DCCF /* AppDelegate.h */,
-				97829C471DDEA1180009DCCF /* AppDelegate.m */,
-				97829C491DDEA1180009DCCF /* ViewController.h */,
-				97829C4A1DDEA1180009DCCF /* ViewController.m */,
-				97829C4C1DDEA1180009DCCF /* Main.storyboard */,
-				97829C4F1DDEA1180009DCCF /* Assets.xcassets */,
-				97829C511DDEA1180009DCCF /* LaunchScreen.storyboard */,
-				97829C541DDEA1180009DCCF /* Info.plist */,
 				97829C431DDEA1180009DCCF /* Supporting Files */,
 			);
 			path = TUTA;
@@ -138,6 +132,9 @@
 			isa = PBXGroup;
 			children = (
 				97829C441DDEA1180009DCCF /* main.m */,
+				97829C4F1DDEA1180009DCCF /* Assets.xcassets */,
+				97829C511DDEA1180009DCCF /* LaunchScreen.storyboard */,
+				97829C541DDEA1180009DCCF /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -203,6 +200,25 @@
 				97829C891DDEADFF0009DCCF /* EditingViewController.m */,
 			);
 			name = "editing(编辑)";
+			sourceTree = "<group>";
+		};
+		97829C8B1DDEAED90009DCCF /* base */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = base;
+			sourceTree = "<group>";
+		};
+		97829C8C1DDEAEFE0009DCCF /* delegate */ = {
+			isa = PBXGroup;
+			children = (
+				97829C461DDEA1180009DCCF /* AppDelegate.h */,
+				97829C471DDEA1180009DCCF /* AppDelegate.m */,
+				97829C491DDEA1180009DCCF /* ViewController.h */,
+				97829C4A1DDEA1180009DCCF /* ViewController.m */,
+				97829C4C1DDEA1180009DCCF /* Main.storyboard */,
+			);
+			name = delegate;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
