@@ -15,6 +15,11 @@
 		97829C531DDEA1180009DCCF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97829C511DDEA1180009DCCF /* LaunchScreen.storyboard */; };
 		97829C5E1DDEA1190009DCCF /* TUTATests.m in Sources */ = {isa = PBXBuildFile; fileRef = 97829C5D1DDEA1190009DCCF /* TUTATests.m */; };
 		97829C691DDEA1190009DCCF /* TUTAUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 97829C681DDEA1190009DCCF /* TUTAUITests.m */; };
+		97829C7E1DDEAD7C0009DCCF /* DiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97829C7D1DDEAD7C0009DCCF /* DiscoverViewController.m */; };
+		97829C811DDEADD40009DCCF /* AttentionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97829C801DDEADD40009DCCF /* AttentionViewController.m */; };
+		97829C841DDEADE60009DCCF /* MessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97829C831DDEADE60009DCCF /* MessageViewController.m */; };
+		97829C871DDEADF00009DCCF /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97829C861DDEADF00009DCCF /* MineViewController.m */; };
+		97829C8A1DDEADFF0009DCCF /* EditingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97829C891DDEADFF0009DCCF /* EditingViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,16 @@
 		97829C641DDEA1190009DCCF /* TUTAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TUTAUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		97829C681DDEA1190009DCCF /* TUTAUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TUTAUITests.m; sourceTree = "<group>"; };
 		97829C6A1DDEA1190009DCCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97829C7C1DDEAD7C0009DCCF /* DiscoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscoverViewController.h; sourceTree = "<group>"; };
+		97829C7D1DDEAD7C0009DCCF /* DiscoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscoverViewController.m; sourceTree = "<group>"; };
+		97829C7F1DDEADD40009DCCF /* AttentionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AttentionViewController.h; sourceTree = "<group>"; };
+		97829C801DDEADD40009DCCF /* AttentionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AttentionViewController.m; sourceTree = "<group>"; };
+		97829C821DDEADE60009DCCF /* MessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageViewController.h; sourceTree = "<group>"; };
+		97829C831DDEADE60009DCCF /* MessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageViewController.m; sourceTree = "<group>"; };
+		97829C851DDEADF00009DCCF /* MineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
+		97829C861DDEADF00009DCCF /* MineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
+		97829C881DDEADFF0009DCCF /* EditingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditingViewController.h; sourceTree = "<group>"; };
+		97829C891DDEADFF0009DCCF /* EditingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditingViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +116,11 @@
 		97829C421DDEA1180009DCCF /* TUTA */ = {
 			isa = PBXGroup;
 			children = (
+				97829C7A1DDEAD1F0009DCCF /* editing(编辑) */,
+				97829C791DDEAD190009DCCF /* mine(我的) */,
+				97829C781DDEAD0F0009DCCF /* message(消息) */,
+				97829C771DDEACCC0009DCCF /* attention(关注) */,
+				97829C761DDEAC610009DCCF /* discover(发现) */,
 				97829C461DDEA1180009DCCF /* AppDelegate.h */,
 				97829C471DDEA1180009DCCF /* AppDelegate.m */,
 				97829C491DDEA1180009DCCF /* ViewController.h */,
@@ -138,6 +158,51 @@
 				97829C6A1DDEA1190009DCCF /* Info.plist */,
 			);
 			path = TUTAUITests;
+			sourceTree = "<group>";
+		};
+		97829C761DDEAC610009DCCF /* discover(发现) */ = {
+			isa = PBXGroup;
+			children = (
+				97829C7C1DDEAD7C0009DCCF /* DiscoverViewController.h */,
+				97829C7D1DDEAD7C0009DCCF /* DiscoverViewController.m */,
+			);
+			name = "discover(发现)";
+			sourceTree = "<group>";
+		};
+		97829C771DDEACCC0009DCCF /* attention(关注) */ = {
+			isa = PBXGroup;
+			children = (
+				97829C7F1DDEADD40009DCCF /* AttentionViewController.h */,
+				97829C801DDEADD40009DCCF /* AttentionViewController.m */,
+			);
+			name = "attention(关注)";
+			sourceTree = "<group>";
+		};
+		97829C781DDEAD0F0009DCCF /* message(消息) */ = {
+			isa = PBXGroup;
+			children = (
+				97829C821DDEADE60009DCCF /* MessageViewController.h */,
+				97829C831DDEADE60009DCCF /* MessageViewController.m */,
+			);
+			name = "message(消息)";
+			sourceTree = "<group>";
+		};
+		97829C791DDEAD190009DCCF /* mine(我的) */ = {
+			isa = PBXGroup;
+			children = (
+				97829C851DDEADF00009DCCF /* MineViewController.h */,
+				97829C861DDEADF00009DCCF /* MineViewController.m */,
+			);
+			name = "mine(我的)";
+			sourceTree = "<group>";
+		};
+		97829C7A1DDEAD1F0009DCCF /* editing(编辑) */ = {
+			isa = PBXGroup;
+			children = (
+				97829C881DDEADFF0009DCCF /* EditingViewController.h */,
+				97829C891DDEADFF0009DCCF /* EditingViewController.m */,
+			);
+			name = "editing(编辑)";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +272,7 @@
 				TargetAttributes = {
 					97829C3F1DDEA1180009DCCF = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = KD232MH9DJ;
 						ProvisioningStyle = Automatic;
 					};
 					97829C581DDEA1190009DCCF = {
@@ -273,8 +339,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97829C841DDEADE60009DCCF /* MessageViewController.m in Sources */,
+				97829C871DDEADF00009DCCF /* MineViewController.m in Sources */,
 				97829C4B1DDEA1180009DCCF /* ViewController.m in Sources */,
+				97829C7E1DDEAD7C0009DCCF /* DiscoverViewController.m in Sources */,
 				97829C481DDEA1180009DCCF /* AppDelegate.m in Sources */,
+				97829C8A1DDEADFF0009DCCF /* EditingViewController.m in Sources */,
+				97829C811DDEADD40009DCCF /* AttentionViewController.m in Sources */,
 				97829C451DDEA1180009DCCF /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -422,6 +493,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KD232MH9DJ;
 				INFOPLIST_FILE = TUTA/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wm.TUTA;
@@ -433,6 +505,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KD232MH9DJ;
 				INFOPLIST_FILE = TUTA/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wm.TUTA;
@@ -505,6 +578,7 @@
 				97829C6F1DDEA1190009DCCF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		97829C701DDEA1190009DCCF /* Build configuration list for PBXNativeTarget "TUTATests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +587,7 @@
 				97829C721DDEA1190009DCCF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		97829C731DDEA1190009DCCF /* Build configuration list for PBXNativeTarget "TUTAUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +596,7 @@
 				97829C751DDEA1190009DCCF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
