@@ -20,6 +20,7 @@
 		97829C841DDEADE60009DCCF /* MessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97829C831DDEADE60009DCCF /* MessageViewController.m */; };
 		97829C871DDEADF00009DCCF /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97829C861DDEADF00009DCCF /* MineViewController.m */; };
 		97829C8A1DDEADFF0009DCCF /* EditingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97829C891DDEADFF0009DCCF /* EditingViewController.m */; };
+		97829C901DDEDFA80009DCCF /* TabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97829C8F1DDEDFA80009DCCF /* TabBarViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +67,8 @@
 		97829C861DDEADF00009DCCF /* MineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
 		97829C881DDEADFF0009DCCF /* EditingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditingViewController.h; sourceTree = "<group>"; };
 		97829C891DDEADFF0009DCCF /* EditingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditingViewController.m; sourceTree = "<group>"; };
+		97829C8E1DDEDFA80009DCCF /* TabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarViewController.h; sourceTree = "<group>"; };
+		97829C8F1DDEDFA80009DCCF /* TabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +119,7 @@
 		97829C421DDEA1180009DCCF /* TUTA */ = {
 			isa = PBXGroup;
 			children = (
+				97829C8D1DDEDD2E0009DCCF /* macro(宏) */,
 				97829C8C1DDEAEFE0009DCCF /* delegate */,
 				97829C8B1DDEAED90009DCCF /* base */,
 				97829C7A1DDEAD1F0009DCCF /* editing(编辑) */,
@@ -205,6 +209,8 @@
 		97829C8B1DDEAED90009DCCF /* base */ = {
 			isa = PBXGroup;
 			children = (
+				97829C8E1DDEDFA80009DCCF /* TabBarViewController.h */,
+				97829C8F1DDEDFA80009DCCF /* TabBarViewController.m */,
 			);
 			name = base;
 			sourceTree = "<group>";
@@ -219,6 +225,13 @@
 				97829C4C1DDEA1180009DCCF /* Main.storyboard */,
 			);
 			name = delegate;
+			sourceTree = "<group>";
+		};
+		97829C8D1DDEDD2E0009DCCF /* macro(宏) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "macro(宏)";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -362,6 +375,7 @@
 				97829C481DDEA1180009DCCF /* AppDelegate.m in Sources */,
 				97829C8A1DDEADFF0009DCCF /* EditingViewController.m in Sources */,
 				97829C811DDEADD40009DCCF /* AttentionViewController.m in Sources */,
+				97829C901DDEDFA80009DCCF /* TabBarViewController.m in Sources */,
 				97829C451DDEA1180009DCCF /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -511,6 +525,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = KD232MH9DJ;
 				INFOPLIST_FILE = TUTA/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wm.TUTA;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -523,6 +538,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = KD232MH9DJ;
 				INFOPLIST_FILE = TUTA/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wm.TUTA;
 				PRODUCT_NAME = "$(TARGET_NAME)";
